@@ -118,19 +118,19 @@ Implement a safe network wrapper pattern to:
 ✔ Updated UserRepository to use safe execution
 ✔ Added tests for success, offline & unknown error
 
-✅ Key Files Modified / Added
+✅ Key Files Modified / Added<br>
  ` ` ` 
      app/src/main/java/com/example/network/NetworkResult.kt
      app/src/main/java/com/example/network/safeApiCall.kt
      app/src/main/java/com/example/repository/UserRepository.kt
 ` ` ` 
 
-✅ Prevents crashes
+✅ Prevents crashes <br>
 ✅ Standardizes error handling
 ✅ Works offline safely
 
 
-✅ Patch (Code Change)
+✅ Patch (Code Change)<br>
 
 Provide EITHER:
 ✅ GitHub commit link
@@ -141,9 +141,10 @@ OR
 Added file:
 ` ` ` 
      app/src/test/java/com/example/repository/UserRepositoryTest.kt
+     
 ` ` ` 
 
-Test Coverage
+Test Coverage<br>
 
 ✔ Verifies API success returns Success
 ✔ Verifies IOException returns Offline
@@ -151,16 +152,18 @@ Test Coverage
 ✔ No crashes during API failure
 
 
-✅ Test Command
+✅ Test Command<br>
 
 Standard test:
 ` ` `
-    ./gradlew test
+     ./gradlew test
+     
 ` ` ` 
 
 Run only specific test:
 ` ` ` 
     ./gradlew test --tests="com.example.repository.UserRepositoryTest"
+    
 ` ` ` 
 
 
