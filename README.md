@@ -102,3 +102,67 @@ Return proper structured response to UI
 
 Allow UI to display user-friendly behavior
 
+
+✅ Goal<br>
+
+Implement a safe network wrapper pattern to:
+✅ Prevent app crash
+✅ Convert failures into NetworkResult
+✅ Improve testability & UX
+
+✅ Solution (Kotlin)
+✅ Fix Summary
+
+✔ Added sealed NetworkResult wrapper
+✔ Added safeApiCall() helper
+✔ Updated UserRepository to use safe execution
+✔ Added tests for success, offline & unknown error
+
+✅ Key Files Modified / Added
+ ` ` ` 
+     app/src/main/java/com/example/network/NetworkResult.kt
+     app/src/main/java/com/example/network/safeApiCall.kt
+     app/src/main/java/com/example/repository/UserRepository.kt
+` ` ` 
+
+✅ Prevents crashes
+✅ Standardizes error handling
+✅ Works offline safely
+
+
+✅ Patch (Code Change)
+
+Provide EITHER:
+✅ GitHub commit link
+OR
+✅ Google Drive .patch file
+
+✅ Validation Tests
+Added file:
+` ` ` 
+     app/src/test/java/com/example/repository/UserRepositoryTest.kt
+` ` ` 
+
+Test Coverage
+
+✔ Verifies API success returns Success
+✔ Verifies IOException returns Offline
+✔ Verifies unknown exception returns Error
+✔ No crashes during API failure
+
+
+✅ Test Command
+
+Standard test:
+` ` `
+    ./gradlew test
+` ` ` 
+
+Run only specific test:
+` ` ` 
+    ./gradlew test --tests="com.example.repository.UserRepositoryTest"
+` ` ` 
+
+
+
+
