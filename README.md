@@ -21,48 +21,36 @@ API returns error
 The app crashes → Bad user experience.
 
 ✅ Goal
-Handle API errors neatly, so your app:<br>
+✔ Handle API errors neatly, so your app:<br>
 
-Never crashes<br>
+✔ Never crashes<br>
 
-Returns a clear result every time<br>
+✔ Returns a clear result every time<br>
 
-Three types of results:<br>
+✔ Three types of results:<br>
 
-Success(data)<br>
+✔ Success(data)<br>
 
-Offline<br>
+✔ Offline<br>
 
 Error(message)<br>
 
 ✅ Solution Overview<br>
-Add a sealed class: NetworkResult
+✅ Add a sealed class: NetworkResult
 
-Write a helper function: safeApiCall()
+✅ Write a helper function: safeApiCall()
 
-Update repository to use the wrapper
+✅ Update repository to use the wrapper
 
-Add unit tests
+✅ Add unit tests
 
 This gives you:
 
-No crashes
+✔ No crashes
 
-Clear error handling
+✔ Clear error handling
 
-Easier UI updates
+✔ Easier UI updates
 
-Well-tested code<br>
+✔ Well-tested code<br>
 
-📁 Project Structure<br>
-text
-/
-├── network/
-│   ├── NetworkResult.kt<br>
-│   └── safeApiCall.kt<br>
-├── api/<br>
-│   └── UserApi.kt<br>
-├── repository/
-│   └── UserRepository.kt<br>
-└── test/
-    └── UserRepositoryTest.kt<br>
