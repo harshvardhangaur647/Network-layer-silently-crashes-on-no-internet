@@ -123,7 +123,7 @@ Implement a safe network wrapper pattern to:
               app/src/main/java/com/example/network/NetworkResult.kt
               app/src/main/java/com/example/network/safeApiCall.kt
               app/src/main/java/com/example/repository/UserRepository.kt
-       ` ` ` 
+         ` ` ` 
 
 ✅ Prevents crashes <br>
 ✅ Standardizes error handling
@@ -139,8 +139,8 @@ OR
 
 ✅ Validation Tests
 Added file:
-    ` ` ` 
-         app/src/test/java/com/example/repository/UserRepositoryTest.kt
+     ` ` ` 
+          app/src/test/java/com/example/repository/UserRepositoryTest.kt
      
     ` ` ` 
 
@@ -156,12 +156,12 @@ Test Coverage
 
 Standard test:
         ` ` `
-            ./gradlew test
+             ./gradlew test
        ` ` ` 
 
 Run only specific test:
         ` ` ` 
-            ./gradlew test --tests="com.example.repository.UserRepositoryTest"
+             ./gradlew test --tests="com.example.repository.UserRepositoryTest"
         ` ` ` 
 
 
