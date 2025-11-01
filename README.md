@@ -68,18 +68,18 @@ A common real-world pattern in Android + Kotlin.
 
 
 ✅ FINAL SUBMISSION
-✅ Repository: https://github.com/harshvardhangaur647/kotlin-safe-network-wrapper
+✅ Repository: https://github.com/harshvardhangaur647/kotlin-safe-network-wrapper <br>
 
 ✅ Repository: Exact Commit
 
 ` ` `
-     e.g.  b71c4a92d8fe38c1a6f97d1563db1ee13b9a045c
+       e.g.  b71c4a92d8fe38c1a6f97d1563db1ee13b9a045c
 ` ` ` 
 
-After pushing code:
+After pushing code:<br>
 GitHub → Your Repo → Commits → Copy SHA
 
-✅ Task Description
+✅ Task Description<br>
 ❌ Problem
 
 When calling remote APIs, the app crashes when:
@@ -92,7 +92,7 @@ Unknown runtime error
 
 Because the repository directly invokes the API → unhandled exception → app crash
 
-✅ Expected
+✅ Expected<br> 
 
 API errors must be handled safely:
 
