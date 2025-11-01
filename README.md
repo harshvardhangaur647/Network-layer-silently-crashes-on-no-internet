@@ -21,21 +21,21 @@ API returns error
 The app crashes → Bad user experience.
 
 ✅ Goal
-Handle API errors neatly, so your app:
+Handle API errors neatly, so your app:<br>
 
-Never crashes
+Never crashes<br>
 
-Returns a clear result every time
+Returns a clear result every time<br>
 
-Three types of results:
+Three types of results:<br>
 
-Success(data)
+Success(data)<br>
 
-Offline
+Offline<br>
 
-Error(message)
+Error(message)<br>
 
-✅ Solution Overview
+✅ Solution Overview<br>
 Add a sealed class: NetworkResult
 
 Write a helper function: safeApiCall()
@@ -52,17 +52,17 @@ Clear error handling
 
 Easier UI updates
 
-Well-tested code
+Well-tested code<br>
 
-📁 Project Structure
+📁 Project Structure<br>
 text
 /
 ├── network/
-│   ├── NetworkResult.kt
-│   └── safeApiCall.kt
-├── api/
-│   └── UserApi.kt
+│   ├── NetworkResult.kt<br>
+│   └── safeApiCall.kt<br>
+├── api/<br>
+│   └── UserApi.kt<br>
 ├── repository/
-│   └── UserRepository.kt
+│   └── UserRepository.kt<br>
 └── test/
-    └── UserRepositoryTest.kt
+    └── UserRepositoryTest.kt<br>
