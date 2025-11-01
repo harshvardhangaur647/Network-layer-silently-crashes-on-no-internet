@@ -54,3 +54,51 @@ This gives you:
 
 ✔ Well-tested code<br>
 
+
+✅ Why This Matters
+
+✔ Avoids app crashes
+✔ Improves UX
+✔ Cleaner data flow
+✔ Helps debugging
+✔ Makes repository layer properly testable
+
+A common real-world pattern in Android + Kotlin.
+
+
+
+✅ FINAL SUBMISSION
+✅ Repository: https://github.com/harshvardhangaur647/kotlin-safe-network-wrapper
+
+✅ Repository: Exact Commit
+
+` ` `
+     e.g.  b71c4a92d8fe38c1a6f97d1563db1ee13b9a045c
+` ` ` 
+
+After pushing code:
+GitHub → Your Repo → Commits → Copy SHA
+
+✅ Task Description
+❌ Problem
+
+When calling remote APIs, the app crashes when:
+
+No internet (IOException)
+
+Backend/server failure
+
+Unknown runtime error
+
+Because the repository directly invokes the API → unhandled exception → app crash
+
+✅ Expected
+
+API errors must be handled safely:
+
+Do NOT crash app
+
+Return proper structured response to UI
+
+Allow UI to display user-friendly behavior
+
