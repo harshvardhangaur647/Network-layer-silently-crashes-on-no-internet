@@ -7,6 +7,16 @@ Many Android/Kotlin apps call remote APIs directly:
 
    ` ` ` 
           val user = api.getUser()
-		` ` `
+  ` ` `
+
+  If:
+
+internet is off
+
+server is down
+
+API crashes
+
+➡️ The app throws an exception → UI crashes → bad UX
      
 
