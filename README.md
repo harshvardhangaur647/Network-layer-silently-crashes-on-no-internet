@@ -72,9 +72,9 @@ A common real-world pattern in Android + Kotlin.
 
 ✅ Repository: Exact Commit
 
-` ` `
-       e.g.  b71c4a92d8fe38c1a6f97d1563db1ee13b9a045c
-` ` ` 
+        ` ` `
+             e.g.  b71c4a92d8fe38c1a6f97d1563db1ee13b9a045c
+        ` ` ` 
 
 After pushing code:<br>
 GitHub → Your Repo → Commits → Copy SHA
@@ -119,11 +119,11 @@ Implement a safe network wrapper pattern to:
 ✔ Added tests for success, offline & unknown error
 
 ✅ Key Files Modified / Added
- ` ` ` 
-      app/src/main/java/com/example/network/NetworkResult.kt
-      app/src/main/java/com/example/network/safeApiCall.kt
-      app/src/main/java/com/example/repository/UserRepository.kt
-` ` ` 
+         ` ` ` 
+              app/src/main/java/com/example/network/NetworkResult.kt
+              app/src/main/java/com/example/network/safeApiCall.kt
+              app/src/main/java/com/example/repository/UserRepository.kt
+       ` ` ` 
 
 ✅ Prevents crashes <br>
 ✅ Standardizes error handling
@@ -139,10 +139,10 @@ OR
 
 ✅ Validation Tests
 Added file:
-` ` ` 
-     app/src/test/java/com/example/repository/UserRepositoryTest.kt
+    ` ` ` 
+         app/src/test/java/com/example/repository/UserRepositoryTest.kt
      
-` ` ` 
+    ` ` ` 
 
 Test Coverage
 
@@ -155,14 +155,14 @@ Test Coverage
 ✅ Test Command<br>
 
 Standard test:
-` ` `
-      ./gradlew test
-` ` ` 
+        ` ` `
+            ./gradlew test
+       ` ` ` 
 
 Run only specific test:
-` ` ` 
-     ./gradlew test --tests="com.example.repository.UserRepositoryTest"
-` ` ` 
+        ` ` ` 
+            ./gradlew test --tests="com.example.repository.UserRepositoryTest"
+        ` ` ` 
 
 
 
