@@ -4,6 +4,9 @@ Many Android/Kotlin apps fetch remote data. If the user is offline, API calls th
 🚨 Problem
 
 Many Android/Kotlin apps call remote APIs directly:
-    val user = api.getUser()
+
+   ` ` ` 
+          val user = api.getUser()
+		` ` `
      
 
